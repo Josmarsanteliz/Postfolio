@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Montserrat:wght@300&display=swap');
+/*font-family: 'Lora', serif;
+font-family: 'Montserrat', sans-serif;
+
+
+ #1f1f1f bg
+ #d47100
+ #242F3F
+ #ff2F3F next time red
+*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+h1 {
+  font-family: 'Lora', serif;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+}
+body {
+  background-color: #242F3F;
+}
+
+.send {
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  right: 10px;
+  top: 680px;
+}
+.container {
+  width: 31%;
+  text-align: justify;
+  position: absolute;
+  right: 3rem;
+  top: 5rem;
+  color: #f28100;
+}
+.container h1 {
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+p {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  color: #fff
+}
+.bg-img {
+  background-color: #black;
+  position: absolute;
+  z-index; 1;
+  left: 10rem;
+  top: 3rem;
+}
+.me {
+  border-radius: 50%;
+  height: 300px;
+  width: 300px;
+}
+/*Icons */
+.two-container {
+  display: flex;
+}
+.social-icons {
+  width: 50%;
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social-icons a {
+  color: #f28100;
+}
+.social-icons i {
+  font-size: 6rem;
+  padding: 3rem;
+}
+/*cuadro dos*/
+.description {
+  margin: 0 auto;
+}
+
+.description ul {
+  list-style-type: none;
+}
+.description ul li {
+  font-size: 3rem;
+  padding-top: 3rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+.description .color {
+  color: #d47100;
+}
+.description i {
+  margin-right: 2rem;
+}
+
+.triangle {
+  position: relative;
+  background: #1f1f1f;
+  height: 50vh;
+}
+
+.triangle::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 187px 187px 0 187px;
+  border-color: #1f1f1f transparent transparent transparent;
+  left: 51%;
+  transform: translateX(-50%) translateY(100%);
+  z-index: -1;
+}
+
+/* Part 2 */
+
+.container2 {
+  background-color: #1f1f1f;
+  color: #fff;
+  height: 100vh;
+}
+.container2 h1 {
+  font-family: 'Lora', serif;
+  text-align: center;
+  margin-bottom: 5rem;
+  margin-top: 5rem;
+  font-size: 3rem;
+  color: #d47100;
+}
+
+.container2 .grid {
+display: grid;
+justify-content: center;
+grid-template-columns: auto auto auto;
+grid-gap: 5rem 10rem;
+}
+
+.container2 .grid i {
+  font-size: 5rem;
+}
+
+/*part 3*/
+.container3 {
+  height: 100vh;
+  text-align: center;
+  font-size: 1rem;
+  color: #d47100;
+}
+.grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  justify-content: center;
+  grid-gap: 1rem 1rem;
+  /*transform: translateX(100%);*/
+}
